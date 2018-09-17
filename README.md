@@ -16,6 +16,6 @@ We need to create a group basketball trade site with product listings and a deta
 
 Amélie, Jessy
 
-## Trello
+## Condition
 
-https://trello.com/b/kKnNwukB/projet-basket-am%C3%A9lie-jessy
+rename configexample.php to config.php and did the commentary
