@@ -20,8 +20,8 @@
     <label for="price">Prix:</label>
     <input id="price" type="text" name="article_price" value=""><br>
     <p>Disponible :</p>
-    <input id="dispo" type="radio" name="disposhoes" value="Disponible" checked="checked"> <label for="dispo">Oui</label>
-    <input id="nodispo" type="radio" name="disposhoes" value="Non Disponible"> <label for="nodispo">Non</label><br>
+    <input id="dispo" type="radio" name="disposhoes" value="Disponible" checked="checked"> <label for="dispo">Disponible</label>
+    <input id="nodispo" type="radio" name="disposhoes" value="Non Disponible"> <label for="nodispo">Non Disponible</label><br>
     <label for="image">Image:</label>
     <input type="file" name="url_img"><br>
     <input type="submit" name="" value="Valider">
