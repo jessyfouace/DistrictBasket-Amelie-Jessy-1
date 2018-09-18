@@ -17,11 +17,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav p-3">
+      <a class="colororangelist" href="connect.php">Connect</a>
       <a class="colororangelist" href="index.php">Accueil</a>
     </div>
   </div>
   <div class="d-nonenav">
     <div class="navbar-nav p-3 d-inline">
+      <a class="colororangelist" href="connect.php">Connect</a>
       <a class="colororangelist" href="index.php">Accueil</a>
     </div>
   </div>
