@@ -16,6 +16,6 @@ We need to create a group basketball trade site with product listings and a deta
 
 Amélie, Jessy
 
-## Condition
+## Connect BDD
 
-rename configexample.php to config.php and did the commentary
+Open config.php and did the commentary
