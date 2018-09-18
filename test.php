@@ -1,3 +1,4 @@
+<?php require('config.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,20 +10,9 @@
     <script src="main.js"></script>
 </head>
 <body>
-    
 
-    <?php 
 
-try
-{
-	// On se connecte à MySQL
-	$bdd = new PDO('mysql:host=mysql;dbname=district_basket;charset=utf8', 'root', 'mysecretpassword');
-}
-catch(Exception $e)
-{
-	// En cas d'erreur, on affiche un message et on arrête tout
-        die('Erreur : '.$e->getMessage());
-}
+    <?php
 
 $req = $bdd->prepare('SELECT password FROM admins WHERE user_name = ?');
 $req->execute(array($_GET['name']));

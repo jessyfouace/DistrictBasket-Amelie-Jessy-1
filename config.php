@@ -1,7 +1,8 @@
 <?php
  try
  {
- 	$bdd = new PDO('mysql:host=mysql;dbname=distric_basket;charset=utf8', 'root', 'mysecretpassword');
+ 	$bdd = new PDO('mysql:host=localhost;dbname=districbasket;charset=utf8', 'root', '');
+
  }
  catch(Exception $e)
  {

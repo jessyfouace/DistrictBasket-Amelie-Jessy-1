@@ -24,8 +24,8 @@ if ($disposhoes !== "" AND $title !== "" AND $desc !== "" AND $price !== "" AND 
     'image' => 'img/' . $image,
     'lastid' => $lastid
   ));
-  header('location: addproduct.php');
+  header('location: addproduct.php?id=7894561230');
 } else {
-  header('location: addproduct.php');
+  header('location: addproduct.php?id=7894561230');
 }
 ?>

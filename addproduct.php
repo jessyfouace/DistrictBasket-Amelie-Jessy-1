@@ -6,7 +6,7 @@
 <head>
   <title>Ajout | DistricBasket</title>
   <meta name="description" content="Site de vente de chaussures de Sneakers (Basket de ville)">
-
+<?php  if ($_GET['id'] == 7894561230) { ?>
   <?php include('header.php') ?>
 
   <?php
@@ -28,3 +28,6 @@
   </form>
   <?php include('footer.php') ?>
   <?php include('script.php') ?>
+<?php } else {
+  header('location: index.php');
+} ?>

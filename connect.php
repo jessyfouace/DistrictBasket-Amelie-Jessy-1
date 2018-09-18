@@ -9,7 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-  
+
 
 <form action="verif.php" method="post">
 <h1>Connexion administrateur</h1>
@@ -20,6 +20,6 @@
             <input type="submit" value="Valider" />
             </p>
         </form>
-  
+
   </body>
 </html>

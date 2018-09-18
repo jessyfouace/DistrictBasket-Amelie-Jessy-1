@@ -1,3 +1,4 @@
+<?php require('config.php'); ?>
 <?php
 include("header.php");
 ?>
@@ -8,22 +9,6 @@ include("header.php");
     <title>Nous contacter | DistricBasket</title>
     <meta name="description" content="Site de vente de chaussures de Sneakers (Basket de ville)">
 
-
-
-<?php
-
-try
-{
-	// On se connecte à la bdd
-	$bdd = new PDO('mysql:host=mysql;dbname=district_basket;charset=utf8', 'root', 'mysecretpassword');
-}
-catch(Exception $e)
-{
-	// En cas d'erreur, on affiche un message et on arrête tout
-        die('Erreur : '.$e->getMessage());
-}
-
-?>
 <div class="row mw1200 col-md-12 justify-content-center">
 <form action="pages/contact/post_message.php" method="post">
   <div class="form-group" id="useremail">
@@ -39,7 +24,7 @@ catch(Exception $e)
 </div>
 
 <!-- include your own success html here -->
- 
+
 Thank you for contacting us. We will be in touch with you very soon.
 <?php include('footer.php') ?>
     <?php include('script.php') ?>
