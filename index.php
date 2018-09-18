@@ -22,8 +22,6 @@
 
     $shoesimg = $shoesimg->fetchAll();
 
-    // var_dump($shoesimg);
-
     echo "<div class='col-10 col-sm-6 col-md-3 col-lg-3 mx-auto pb-3'>
       <a href='detail.php?product=" . $value['id'] . "'>
         <div class='card'>
@@ -31,7 +29,7 @@
         <ul class='list-group'>
             <li class='list-group-item'>" . $value['article_name'] . "</li>
             <li class='list-group-item'>" . $value['article_desc'] . "</li>
-            <li class='list-group-item'>" . $value['article_price'] . "</li>
+            <li class='list-group-item'>" . $value['article_price'] . '€' . "</li>
           </ul>
         </div>
       </a>

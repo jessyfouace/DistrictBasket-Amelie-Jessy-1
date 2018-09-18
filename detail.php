@@ -33,8 +33,8 @@ $shoesimg = $shoesimg->fetchAll();
               <div class='desc pl-3 col-10 col-sm-6 col-md-6 col-lg-6 mx-auto'>
                 <h1>" . $shoestable[0]['article_name'] . "</h1>
                 <p>" . $shoestable[0]['article_desc'] . "</p>
-                <p>Prix: " . $shoestable[0]['article_price'] . "</p>
-                <p>Dispo: " . $shoestable[0]['disposhoes'] . "</p>
+                <p>Prix: " . $shoestable[0]['article_price'] . '€' . "</p>
+                <p>" . $shoestable[0]['disposhoes'] . "</p>
               </div>
           </div>
         </div>";

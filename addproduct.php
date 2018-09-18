@@ -19,8 +19,9 @@
     <input id="desc" type="text" name="article_desc" value=""><br>
     <label for="price">Prix:</label>
     <input id="price" type="text" name="article_price" value=""><br>
-    <label for="dispo">Dispo: (Oui / Non)</label>
-    <input id="dispo" type="text" name="disposhoes" value=""><br>
+    <p>Disponible :</p>
+    <input id="dispo" type="radio" name="disposhoes" value="Disponible" checked="checked"> <label for="dispo">Disponible</label>
+    <input id="nodispo" type="radio" name="disposhoes" value="Non Disponible"> <label for="nodispo">Non Disponible</label><br>
     <label for="image">Image:</label>
     <input type="file" name="url_img"><br>
     <input type="submit" name="" value="Valider">
